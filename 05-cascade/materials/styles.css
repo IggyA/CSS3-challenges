@@ -39,5 +39,56 @@ table {
 	margin-left: 600px;
 	padding: 15px;
 	background: #E9F5FE;
+	line-height: 1.1em;
+}
+
+html {
+	font-size: 1.25em;
+
+}
+
+body{
+	background: #CDE6FF url(images/bg_body.png) top center no-repeat;
+	padding: 0px 50px;
+	color: #79646B;
+	width: 800px;
+	margin: 0 auto;
+	line-height: 1.5em;
+}
+
+
+h1 {
+	margin-top: 125px;
+	font-size: 3em;
+	color: #B1967C;
+	font-weight: bolder;
+	margin-bottom: .5em;
+}
+
+
+h2 {
+	margin-top: .5em;
+	font-size: 2em;
+}
+
+.main > h2 {
+	background: transparent url(images/bullet_flower.png) center left no-repeat;
+  padding-left: 75px;
+	border-bottom: 2px solid white;
+	color: #E8A064;
+}
+
+.sidebar > h2 {
+	color: #B4CCE6;
+	margin-bottom: .5em;
+}
+
+div:first-of-type > p {
+	padding-left: 75px;
+}
+
+div:first-of-type > p:first-of-type {
+	color: #6D9AD0;
+	padding-left: 0px;
 }
 
