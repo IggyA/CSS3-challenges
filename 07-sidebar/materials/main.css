@@ -64,6 +64,7 @@ h2 {
 .note {
   float: right;
   border-top: 15px solid #FC6512;
+  margin-right: 10px;
   border-bottom: 0px;
   border-radius: 5px;
   width: 33%;

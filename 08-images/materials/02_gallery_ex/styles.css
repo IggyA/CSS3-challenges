@@ -73,3 +73,25 @@ p {
 	border-top: 1px dashed #999;
 	clear: both;
 }
+
+.gallery {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+figure{
+	width: 212px;
+	margin: 10px;
+}
+
+figure img {
+	padding: 5px;
+	border: 1px solid black;
+	box-shadow: 5px 5px 5px grey;
+}
+
+figure figcaption {
+	text-align: center;
+	margin-top: 10px
+}
+

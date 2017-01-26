@@ -31,6 +31,8 @@ table {
 
 body {
 	font-size: 62.5%;
+	width: 60%;
+	margin: 0 auto;
 }
 
 .content {
@@ -57,4 +59,25 @@ p {
 	padding-left: 8px;
 	border-top: 1px dashed #999;
 	clear: both;
+}
+
+figure {
+	width: 220px;
+	float: right;
+	margin-left: 5px;
+}
+
+figure img {
+	padding: 10px;
+	border: 1px solid black;
+	background-color: #CCCCCC;
+}
+
+figcaption {
+	background-color: #E6F3FF;
+	border: 1px dashed black;
+	font-size: smaller;
+	padding: 5px;
+	font-weight: bolder;
+	color: #595853;
 }
